@@ -1,0 +1,130 @@
+body{
+	margin: auto;
+	font-family: "Roboto Slab";
+	color: white;
+}
+
+hr{
+	border-color: black;
+}
+
+.container{
+	border: solid;
+	margin: 10px;
+	padding: 10px;
+	background-color: rgb(237, 136, 36);
+}
+
+.imgcontainer{
+	float: left;
+	width: 20%;
+}
+
+img{
+	height: 150px;
+	border: solid;
+}
+
+.textcontainer{
+	text-align: center;
+	padding-left: 100px;
+	width: 75%;
+}
+
+.section{
+	margin: 10px;
+	border: solid;
+	padding: 10px;
+	background-color: rgb(70, 70, 226);
+	text-align: center;
+}
+
+.section h5{
+	color: red;
+	text-align: left;
+	margin: 2px;
+}
+
+.section h4{
+	margin: 2px;
+	text-align: left;
+}
+
+span{
+	color: red;
+}
+
+select:hover{
+	cursor: pointer;
+}
+
+input{
+	padding: 3px;
+	margin: 3px;
+}
+
+#sex, #branch{
+	padding: 3px;
+	margin: 3px;
+}
+
+textarea{
+	margin: 3px;
+}
+
+#submit{
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	color: rgb(74, 8, 255);
+	font-weight: bold;
+	font-size: 1em;
+	border-color: black; 
+	box-shadow: 0 5px gray;
+	outline: none;
+}
+
+#cancel{
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	color: red;
+	font-weight: bold;
+	font-size: 1em;
+	border-color: black;
+	box-shadow: 0 5px gray;
+	outline: none;
+}
+
+#submit:hover{
+	cursor: pointer;
+	background-color: blue;
+	font-weight: bold;
+	color: white;
+}
+
+#cancel:hover{
+	cursor: pointer;
+	background-color: red;
+	font-weight: bold;
+	color: white;
+}
+
+button:focus{
+	outline: 0;
+}
+
+#submit:active, #cancel:active{
+	color:black;
+	transform: translateY(4px); 
+}
+
+#radio:hover{
+	cursor: pointer;
+}
+
+#radio{
+	border-radius: 50px;
+	margin-right: 7px;
+	display: inline-block;
+}

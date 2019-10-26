@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<title>Admission Form</title>
+		<link rel="stylesheet" href="form_style.css"></link>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet"> 
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="imgcontainer">
+				<img src="thadomal.jpg" alt="Thadomal Shahani">
+			</div>
+			<div class="textcontainer">
+				<h1>Thadomal Shahani Engineering College</h1>
+				<p>W, P. G. Kher Marg, (32nd Road, Marg, Off Linking Rd, TPS III, Bandra West, Mumbai, Maharashtra 400050</p>	
+				<h3>International Students Admission - Registeration Form</h3>
+			</div>
+		</div>
+
+		<div class="section">
+			<form action="process.php" method="POST">
+				<h5>* are required fields</h5>
+				<h4>Application For:</h4>
+
+				<hr>
+
+				<p>
+					<span>*</span><strong> Branch : </strong>
+					<select name="branch" id="branch">
+						<option value="0">Select</option>
+						<option value="CS">Computer Engineering</option>
+						<option value="IT">Information Technology</option>
+						<option value="EXTC">Electronics Exchange Telecommunication Engineering</option>
+						<option value="BT">BioTech Engineering</option>
+						<option value="BM">BioMedical Engineering</option>
+						<option value="CE">Chemical Engineering</option>
+					</select>
+				</p>
+
+				<p>
+					<span>*</span><strong> Category of Admission :</strong>
+					<input id="radio" type="radio" name="coa" value="general">General</input>
+					<input id="radio" type="radio" name="coa" value="scst">SC/ST</input>
+					<input id="radio" type="radio" name="coa" value="obc">OBC</input>
+				</p>
+
+				<hr>
+
+				<h4>Personal Details:</h4>
+
+				<hr>
+
+				<span>*</span><strong> Full Name :</strong>
+				<input type="text" name="name" placeholder="Enter Full Name">
+				<br>
+				
+				<span>*</span><strong> Name of Guardian/Parent :</strong>
+				<input type="text" name="guardianname" placeholder="Guardian Name">
+				<br>
+				
+				<span>*</span><strong> Guardian/Parent Occupation :</strong>
+				<input type="text" name="guardianoccupation">
+				<br>
+
+				<span>*</span><strong> Date of Birth :</strong>
+				<input type="text" name="dob" placeholder="dd/mm/yyyy">
+				<br>
+
+				<span>*</span><strong> Sex :</strong>
+				<select name="sex" id="sex">
+					<option value="0">Select</option>
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+					<option value="other">Other</option>
+				</select>
+				<br>
+
+				<span>*</span><strong> Nationality :</strong>
+				<input type="text" name="nation">
+				<br>
+
+				<hr>
+
+				<h4>Permanent Communication Details:</h4>
+
+				<hr>
+
+				<span>*</span><strong> Address : </strong>
+				<textarea name="address" id="address" cols="30" rows="5"></textarea>
+				<br>
+
+				<span>*</span><strong> City :</strong>
+				<input type="text" name="city">
+				<br>
+
+				<strong> State :</strong>
+				<input type="text" name="state">
+				<br>
+
+				<span>*</span><strong> Country :</strong>
+				<input type="text" name="country">
+				<br>
+
+				<span>*</span><strong> Phone :</strong>
+				<input type="text" name="number">
+				<br>
+
+				<span>*</span><strong> Email :</strong>
+				<input type="email" name="email">
+				<br>
+
+			</form>
+
+			<button id="submit">SUBMIT</button>
+
+			<button id="cancel">CANCEL</button>
+
+		</div>
+	</body>
+</html>

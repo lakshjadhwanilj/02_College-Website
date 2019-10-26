@@ -1,0 +1,447 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    font-weight: normal;
+    line-height: 1.6em;
+    margin: 0;
+    color: #555555;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+nav ul li:hover a{
+    padding: 10px;
+    margin: 1px;
+    border-radius: 5%;
+    background-color: rgb(122, 122, 122);
+    color: white;
+}
+
+header{
+    padding: 20px;
+    border-bottom: 3px solid black;
+    min-height: 75px;
+}
+
+.head{
+    float: left;
+}
+
+.head img{
+    margin-top: 0;
+    margin-left: 50px;
+    position: absolute;
+    height: 80px;
+}
+
+.head p{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+nav ul{
+    float: right;
+    padding: 5px;
+    list-style: none;
+    margin-top: 103x;
+}
+
+nav ul li{
+    display: inline;
+    padding: 10px;
+    margin: 1px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+ul li a{
+    color: black;
+}
+
+#current{
+    background-color: rgb(70, 70, 226);
+    font-weight: bold;
+    border-radius: 5%;
+}
+
+#current a{
+    color: white;
+}
+
+.container{
+    padding: 0px 30px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.showcase{
+    background-image: url('tsec.jpg');
+    min-height: 500px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    border-bottom: 3px solid black;
+}
+
+.showcase h1{
+    font-size: 2.5em;
+    line-height: 1.2em;
+    margin-top: 300px;
+    margin-bottom: 25px;
+    color: rgb(70, 70, 226);
+    font-weight: bold;
+}
+
+.container marquee{
+    padding: 20px;
+    font-size: 25px;
+    color: rgb(70, 70, 226);
+}
+
+.container marquee a{
+    color: rgb(70, 70, 226);
+}
+
+.sub-section{
+    box-sizing: border-box;
+    float: left;
+    background-color: rgb(70, 70, 226);
+    color: white;
+    text-align: center;
+    font-family: 'Crimson Pro', serif;
+    font-weight: normal;
+    padding: 50px;
+    margin: 20px;
+    width: 30%;
+}
+
+.sub-section h2{
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+}
+
+.sub-section h4{
+    font-size: 1.2em;
+}
+
+.sub-section button{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+}
+
+.boxes{
+    margin: 0 50px;
+}
+
+.sub-box{
+    box-sizing: border-box;
+    float: left;
+    width: 280px;
+    padding: 20px;
+    margin: 20px 10px;
+    text-align: center;
+    font-family: 'Crimson Pro', serif;
+    font-weight: normal;
+    color: white;
+    height: 130px;
+}
+
+#extc{
+    background-color: rgb(255, 49, 49);
+}
+
+#extc img{
+    float: left;
+}
+
+#cse{
+    background-color: rgb(214, 49, 255);
+}
+
+#cse img{
+    float: left;
+}
+
+#it{
+    background-color: rgb(80, 49, 255);
+}
+
+#it img{
+    float: left;
+}
+
+#ce{
+    background-color: rgb(58, 130, 224);
+}
+
+#ce img{
+    float: left;
+}
+
+#bme{
+    background-color: rgb(49, 255, 83);
+}
+
+#bme img{
+    float: left;
+}
+
+#bte{
+    background-color: rgb(58, 130, 224);
+}
+
+#bte img{
+    float: left;
+}
+
+#hs{
+    background-color: rgb(255, 136, 0);
+}
+
+#hs img{
+    float: left;
+}
+
+#od{
+    background-color: rgb(149, 58, 224);
+}
+
+#od img{
+    margin-top: 10px;
+    float: left;
+}
+
+footer{
+    border-top: 1px solid black;
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: rgb(70, 70, 226);
+    color: white;
+    line-height: 1em;
+}
+
+.updates{
+  border-top: 3px solid black;
+  width: 60%;
+  margin: 20px;
+  padding: 20px;
+  float: left;
+  color: rgb(112, 112, 112);
+}
+
+.updates h1{
+  font-weight: normal;
+}
+
+.contain{
+  padding: 20px;
+  background-color: rgb(227, 223, 222);
+}
+
+#arag{
+  background-color: rgb(227, 223, 222);
+  color: rgb(112, 112, 112);
+  padding: 25px;
+  width: 28%;
+  height: 200px;
+  text-align: center;
+}
+
+#arag h1{
+    padding: 5px;
+    margin: 5px;
+    line-height: 1em;
+}
+
+#arag button{
+  color: white;
+  background-color: rgb(70, 70, 226);
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:active{
+  transform: translateY(4px); 
+}
+
+#sidebar{
+    width: 30%;
+    float: right;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#sidebar img{
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#sidebar img:hover{
+    cursor: pointer;
+}
+
+#sidebar h2:hover{
+    cursor: pointer;
+}
+
+#sidebar h2{
+    color: rgb(55, 55, 82);
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#contact{
+    padding: 20px;
+    margin: 10px 100px;
+}
+
+#contact h1{
+    font-size: 2em;
+}
+
+#contact img{
+    margin: 10px;
+    border: black 2px solid;
+}
+
+#contact iframe{
+    margin: 10px;
+    padding: 10px;
+}
+
+#address a{
+    text-decoration: none;
+    color: rgb(70, 70, 226);
+}
+
+#address{
+    padding: 20px;
+    margin: 10px 150px;
+    float: left;
+    width: 30%;
+    color: rgb(70, 70, 226);
+    border: 1px solid;
+}
+
+#travel{
+    float: left;
+    padding: 20px;
+    margin: 40px;
+    text-align: justify;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+#travel h1{
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid grey;
+}
+
+#travel .box h1{
+    text-align: center;
+}
+
+#travel .box{
+    width: 30%;
+    float: left;
+    margin: 10px;
+    padding: 10px; 
+}
+
+.committee{
+    margin: 20px;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: #ebebeb;
+}
+
+.committee img{
+    height: 250px;
+}
+
+.committee h1{
+    padding: 20px;
+    background-color: #555555;
+    color: white;
+}
+
+.committee div{
+    min-height: 400px;
+}
+
+.committee img{
+    float: left;
+    padding: 20px;
+    margin: 20px;
+}
+
+.committee p{
+    padding: 20px;
+    margin: 20px;
+    margin-top: 70px;
+}
+
+.department{
+    margin: 40px;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #ebebeb;
+    color: black;
+}
+
+.department .img-h{
+    padding: 15px;
+    min-height: 90px;
+}
+
+.img-h img{
+    float: left;
+}
+
+.img-h h1{
+    padding-left: 100px;
+    margin-top: 40px;
+}
+
+#dep-extc{
+    background-color: rgb(255, 49, 49);
+}
+
+#dep-cse{
+    background-color: rgb(214, 49, 255);
+}
+
+#dep-it{
+    background-color: rgb(80, 49, 255);;
+}
+
+#dep-ce{
+    background-color: rgb(58, 130, 224);
+}
+
+#dep-bme{
+    background-color: rgb(49, 255, 83);
+}
+
+#dep-bte{
+    background-color: rgb(58, 130, 224);
+}
